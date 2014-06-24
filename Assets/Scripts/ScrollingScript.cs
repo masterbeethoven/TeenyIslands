@@ -2,34 +2,25 @@
 using System.Linq;
 using UnityEngine;
 
-/// <summary>
-/// Parallax scrolling script that should be assigned to a layer
-/// </summary>
+
+// Parallax scrolling script that should be assigned to a layer
 public class ScrollingScript : MonoBehaviour
 {
-	/// <summary>
-	/// Scrolling speed
-	/// </summary>
+	// Scrolling speed
 	public Vector2 speed = new Vector2(10, 10);
 	
-	/// <summary>
-	/// Moving direction
-	/// </summary>
+
+	// Moving direction
 	public Vector2 direction = new Vector2(-1, 0);
-	
-	/// <summary>
-	/// Movement should be applied to camera
-	/// </summary>
+
+	// Movement should be applied to camera
 	public bool isLinkedToCamera = false;
-	
-	/// <summary>
-	/// 1 - Background is infinite
-	/// </summary>
+
+	// 1 - Background is infinite
 	public bool isLooping = false;
 	
-	/// <summary>
-	/// 2 - List of children with a renderer.
-	/// </summary>
+
+	// 2 - List of children with a renderer.
 	private List<Transform> backgroundPart;
 	
 	// 3 - Get all the children
@@ -54,8 +45,6 @@ public class ScrollingScript : MonoBehaviour
 			
 			// Sort by position.
 			// Note: Get the children from left to right.
-			// We would need to add a few conditions to handle
-			// all the possible scrolling directions.
 			backgroundPart = backgroundPart.OrderBy(
 				t => t.position.x
 				).ToList();
@@ -89,13 +78,12 @@ public class ScrollingScript : MonoBehaviour
 			if (firstChild != null)
 			{
 				// Check if the child is already (partly) before the camera.
-				// We test the position first because the IsVisibleFrom
-				// method is a bit heavier to execute.
+
 				if (firstChild.position.x < Camera.main.transform.position.x)
 				{
 					// If the child is already on the left of the camera,
-					// we test if it's completely outside and needs to be
-					// recycled.
+					//if it's completely outside and needs to be
+					// recycled???
 					if (firstChild.renderer.IsVisibleFrom(Camera.main) == false)
 					{
 						// Get the last child position.
