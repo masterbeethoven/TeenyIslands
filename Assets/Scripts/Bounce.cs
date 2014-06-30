@@ -3,7 +3,6 @@ using System.Collections;
 
 public class Bounce : MonoBehaviour {
 
-
 	//Vector2 basePosition = Vector2.zero;
 	// Use this for initialization
 	void Start () {
@@ -18,7 +17,11 @@ public class Bounce : MonoBehaviour {
 		
 		//transform.position = basePosition + new Vector2(.25f, Mathf.Cos(Time.time) * 1f);
 		
-		transform.position = new Vector2( 0f,Mathf.Sin(Time.time));
-		//original bounce code
+		//transform.position = new Vector2( 0f,Mathf.Sin(Time.time));
+		//original bounce code, so like use this after playing around with the other.
+
+		transform.position = new Vector2( 50f,0f);
+		//first number is x, second is y
+
 	}
 }
