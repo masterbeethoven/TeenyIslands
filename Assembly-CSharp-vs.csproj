@@ -53,6 +53,7 @@
      <Compile Include="Assets\Scripts\ScreenConstraints.cs" />
      <Compile Include="Assets\Scripts\ScrollingScript.cs" />
      <Compile Include="Assets\Scripts\TagScript1.cs" />
+     <Compile Include="Assets\Scripts\TagScript2.cs" />
      <Compile Include="Assets\Scripts\TriggerScript.cs" />
      <Compile Include="Assets\Scripts\VisibleSound.cs" />
   </ItemGroup>
