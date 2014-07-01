@@ -3,8 +3,7 @@ using System.Collections;
 
 public class TriggerScript : MonoBehaviour {
 
-	//public AudioSource [] sounds; 
-	//public AudioSource sound1;
+
 
 	// Use this for initialization
 	void Start () {
@@ -18,24 +17,10 @@ public class TriggerScript : MonoBehaviour {
 	
 	}
 
-	void OnTriggerEnter2D(Collider2D gameObject){
+	void OnTriggerEnter2D(){
 
-		if (gameObject.tag == "Island1"){
-
-			//audio.Play("Theme1");
-			audio.Play ();
-			//audio.PlayOneShot("ShipsStem");
-			Debug.Log ("It works!");
-
-		if (gameObject.tag == "Fungi1");{
-
-			audio.Play();
-			Debug.Log ("Here's to hoping!");
-		}
-	}
-
-		else audio.Stop ();
-
-
+		audio.Play ();
+		collider2D.enabled = false;
+		    
 	}
 }

@@ -10,7 +10,8 @@
       <File FileName="Assets/Scripts/ScreenConstraints.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/OffScreenScript.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/TagScript1.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/TriggerScript.cs" Line="25" Column="6" />
+      <File FileName="Assets/Scripts/TriggerScript.cs" Line="31" Column="45" />
+      <File FileName="Assets/Scripts/TagScript2.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
