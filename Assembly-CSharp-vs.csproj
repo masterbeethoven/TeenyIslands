@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Bounce.cs" />
+     <Compile Include="Assets\Scripts\EndGame.cs" />
      <Compile Include="Assets\Scripts\MenuScript.cs" />
      <Compile Include="Assets\Scripts\OffScreenScript.cs" />
      <Compile Include="Assets\Scripts\PlayerBehavior.cs" />
@@ -55,6 +56,7 @@
      <Compile Include="Assets\Scripts\ScrollingScript.cs" />
      <Compile Include="Assets\Scripts\TagScript1.cs" />
      <Compile Include="Assets\Scripts\TagScript2.cs" />
+     <Compile Include="Assets\Scripts\TeddyBounce.cs" />
      <Compile Include="Assets\Scripts\TriggerScript.cs" />
      <Compile Include="Assets\Scripts\VisibleSound.cs" />
   </ItemGroup>

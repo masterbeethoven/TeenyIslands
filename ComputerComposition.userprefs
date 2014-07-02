@@ -1,13 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Bounce.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TeddyBounce.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayerBehavior.cs" Line="49" Column="1" />
-      <File FileName="Assets/Scripts/Bounce.cs" Line="20" Column="38" />
+      <File FileName="Assets/Scripts/Bounce.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/ScrollingScript.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/RendererExtensions.cs.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/ScreenConstraints.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/TriggerScript.cs" Line="23" Column="13" />
+      <File FileName="Assets/Scripts/ScreenConstraints.cs" Line="23" Column="2" />
+      <File FileName="Assets/Scripts/TriggerScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MenuScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/TeddyBounce.cs" Line="20" Column="60" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
